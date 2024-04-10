@@ -1,0 +1,22 @@
+/* Author: Logan Bateman, 00918989 */
+
+/* Start of progress bar */
+#myProgress{
+	width: 60%;
+}
+
+#mybar{
+	width: 100%;
+	height: 25px;
+	transition: width 0.5s ease;
+}
+/* End of progress bar */
+
+/* Start rotating images on click */
+img {
+	transition: opacity 100ms ease-in-out;
+}
+img:active {
+	opacity: 0;
+}
+/* End rotating images on click */
